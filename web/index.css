@@ -1,0 +1,401 @@
+
+/********************************************************************/
+.jumbotron-fluid{
+	width: 100%;
+	margin: auto;
+	display: block;
+	margin-bottom: -1em;
+	margin-top: 2em;
+}
+.btn-success{
+	border: none;
+	margin:2.2em 1em -1em 1em;
+	width: 11em;
+	height: 3em;
+	font-size: 0.9rem;
+}
+.js-push-btn{
+	margin-top: 2em;
+}
+.text-center{
+	margin-top: 2em;
+}
+#logo {
+	width: 50%;
+	margin: auto;
+	display: block;
+}
+/* #overview {
+	height: auto;
+	width: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	box-shadow: #111;
+} */
+
+body {
+	background-image: linear-gradient( #87c5f5, #fefa7b);
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	margin: auto;
+	display: block;
+}
+
+.Home {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	margin-top: 0.5em;
+}
+
+a {
+	color: #ffffff;
+	/*top  left    bottom    right*/
+	padding: 2em 1em 3em 1em;
+	display: block;
+	margin: auto;
+	text-decoration: none;
+	font-size: 1.3rem;
+	text-align: center;	
+}
+.row{
+	width: auto;
+	height: auto;
+	padding-bottom:0em 0em;
+}
+.mycard {
+	margin:1em 0em -3em 0em; /**/
+	width:9.8em;
+	/*top  left    bottom    right*/
+	padding:2em 1em 0em 1em;
+	/*margin-bottom: 0;*/
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+#temp {
+	background-image: url('assets/images/temp.png');
+}
+
+#moisture {
+	background-image: url('assets/images/moisture.png');
+}
+
+#rain {
+	background-image: url('assets/images/rain.png');
+	color:white ;
+}
+
+#pm {
+	background-image: url('assets/images/pm.png');
+	color:white ;
+}
+
+.block {
+
+	    display: block;
+	    background-repeat: no-repeat;
+	    list-style-type: none;
+		background-size: 100% ;
+		margin: auto;
+		/*overflow: auto;*/
+	
+
+}
+
+/*****************************************************************/
+@media (min-width: 375px) {
+	.jumbotron-fluid{
+		width: 100%;
+		margin: auto;
+		display: block;
+		margin-bottom: -1em;
+		margin-top: 2em;
+	}
+	.btn-success{
+		border: none;
+		margin:2em 1em -1em 1em;
+		width: 12.4em;
+		height: 2.5em;
+		font-size: 1rem;
+	}
+	.js-push-btn{
+		margin-top: 2em;
+	}
+	.text-center{
+		margin-top: 2em;
+	}
+	#logo {
+		width: 50%;
+	}
+	.container {
+		margin-top: 0em;
+	}
+	
+	a {
+		color: #ffffff;
+		/*top  left    bottom    right*/
+		padding: 2.5em 1em 3em 1em;
+		display: block;
+		margin: auto;
+		text-decoration: none;
+		font-size: 1.5rem;
+		text-align: center;	
+	}
+	.row{
+		width: auto;
+		height: auto;
+		padding-bottom:0em 0em;
+	}
+	.mycard {
+		margin:0em 4em -6em 1.5em; /**/
+		width:10em;
+		/*top  left    bottom    right*/
+		padding:2em 1em 3em 1em;
+		/*margin-bottom: 0;*/
+	}
+
+	/* .jumbotron-fluid{
+		width: 60%;
+		margin: auto;
+		display: block;
+		margin-top: 0em;
+	} */
+	.Home {
+		padding: 3% 3% 3% 3%;
+		margin: auto;
+		display: block;
+	} 
+	/* a {
+		color: #ffffff;
+		padding: 32px 32px 32px 32px;
+		font-size: 15px
+	}  */
+	 .block {
+			list-style-type: none;
+			margin: auto;
+			display: block;
+			list-style-type: none;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			padding-bottom: 0;
+	} 
+	#rain {
+		color:white ;
+	}
+	
+	#pm {
+		color:white ;
+	}
+	/* .btn-success{
+		border: none;
+		margin:5% 2% 1% 2%;
+		height: 2.5em;
+		width: 8em;
+		font-size: 16px;
+	} */
+
+}
+
+ @media (min-width: 760px)  { /* ipad size */
+	.btn-success{
+		border: none;
+		margin:4em 1em -1em 1em;
+		width: 12.4em;
+		height: 2.5em;
+		font-size: 1.2rem;
+	}
+	#logo {
+		width: 50%;
+	}
+	.jumbotron-fluid{
+		width: 70%;
+		margin: auto;
+		display: block;
+		margin-bottom: 1em;
+		margin-top: 5em;
+	}
+	.container{
+		margin-top:0em;
+		padding-top: 0em;
+	}
+	a {
+		color: #ffffff;
+		/*top  left    bottom    right*/
+		padding: 3em 1em 3em 1em;
+		display: block;
+		margin: auto;
+		text-decoration: none;
+		font-size: 1.5rem;
+		text-align: center;	
+	}
+	.row{
+		width: auto;
+		height: auto;
+		padding-bottom:0em 0em;
+	}
+	.mycard {
+		margin:0em 1em -6em 1em; /**/
+		width:11.25em;
+		/*top  left    bottom    right*/
+		padding:1em 1em 1em 1em;
+		/*margin-bottom: 0;*/
+	}
+	
+	#rain {
+		background-image: url('assets/images/rain.png');
+		color:white ;
+	}
+	
+	#pm {
+		background-image: url('assets/images/pm.png');
+		color:white ;
+	}
+ 
+
+	}
+
+	/**********************************************************/
+	@media (min-width: 1000px)  { /* ipad size */
+		.btn-success{
+			border: none;
+			margin:4em 1em -1em 1em;
+			width: 12.4em;
+			height: 2.5em;
+			font-size: 1.2rem;
+		}
+		#logo {
+			width: 40%;
+		}
+		.jumbotron-fluid{
+			width: 70%;
+			margin: auto;
+			display: block;
+			margin-bottom: 1em;
+			margin-top: 5em;
+		}
+		.container{
+			margin-top:0em;
+			padding-top: 0em;
+		}
+		a {
+			color: #ffffff;
+			/*top  left    bottom    right*/
+			padding: 3em 1em 3em 1em;
+			display: block;
+			margin: auto;
+			text-decoration: none;
+			font-size: 1.5rem;
+			text-align: center;	
+		}
+		.row{
+			width: auto;
+			height: auto;
+			padding-bottom:0em 0em;
+		}
+		.mycard {
+			margin:0em 1em -6em 1em; /**/
+			width:11.25em;
+			/*top  left    bottom    right*/
+			padding:1em 1em 1em 1em;
+			/*margin-bottom: 0;*/
+		}
+		
+		#rain {
+			background-image: url('assets/images/rain.png');
+			color:white ;
+		}
+		
+		#pm {
+			background-image: url('assets/images/pm.png');
+			color:white ;
+		}
+	 
+	
+		}
+	
+
+
+
+@media (min-width: 1400px) { /* desktop 1280 */
+	.btn-success{
+		border: none;
+		margin:3.5em 1em -1em 1em;
+		width: 12.4em;
+		height: 2.5em;
+		font-size: 1.2rem;
+	}
+	#logo {
+		width: 100%;
+	}
+	.jumbotron-fluid{
+		width: 100%;
+		margin: auto;
+		display: block;
+		margin-bottom: 4em;
+		margin-top: -4em;
+	}
+	.container{
+		margin-top:0em;
+		padding-top: 0em;
+	}
+	a {
+		color: #ffffff;
+		/*top  left    bottom    right*/
+		padding: 3em 1em 3em 1em;
+		display: block;
+		margin: auto;
+		text-decoration: none;
+		font-size: 2rem;
+		text-align: center;	
+	}
+	.row{
+		width: auto;
+		height: auto;
+		padding-bottom:0em 0em;
+	}
+	.mycard {
+		margin:-2em 1em -6em 1em; /**/
+		width:12.7em;
+		/*top  left    bottom    right*/
+		padding:1em 1em 1em 1em;
+		/*margin-bottom: 0;*/
+	}
+	
+	#rain {
+		background-image: url('assets/images/rain.png');
+		color:white ;
+	}
+	
+	#pm {
+		background-image: url('assets/images/pm.png');
+		color:white ;
+	}
+
+/*****************************************************************/
+.Home {
+	padding: 10% 1% 1% 1%;
+	margin: auto;
+	display: block;
+} 
+.container {
+	margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+	width: 50%;
+	max-width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-top: 1%;
+	margin-right: auto;
+	display: block;
+}
+}

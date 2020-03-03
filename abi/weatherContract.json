@@ -1,0 +1,110 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_rain",
+				"type": "string"
+			},
+			{
+				"name": "_humidity",
+				"type": "string"
+			},
+			{
+				"name": "_temp",
+				"type": "string"
+			}
+		],
+		"name": "writeInArrayWeather",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "ReadInArraypm",
+		"outputs": [
+			{
+				"components": [
+					{
+						"name": "sensorid",
+						"type": "string"
+					},
+					{
+						"name": "pm1",
+						"type": "string"
+					},
+					{
+						"name": "pm2",
+						"type": "string"
+					},
+					{
+						"name": "pm10",
+						"type": "string"
+					}
+				],
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "ReadInArrayweather",
+		"outputs": [
+			{
+				"components": [
+					{
+						"name": "rain",
+						"type": "string"
+					},
+					{
+						"name": "humidity",
+						"type": "string"
+					},
+					{
+						"name": "temp",
+						"type": "string"
+					}
+				],
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_sensorid",
+				"type": "string"
+			},
+			{
+				"name": "_pm1",
+				"type": "string"
+			},
+			{
+				"name": "_pm2",
+				"type": "string"
+			},
+			{
+				"name": "_pm10",
+				"type": "string"
+			}
+		],
+		"name": "writeInArrayPm",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
