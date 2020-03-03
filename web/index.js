@@ -46,7 +46,7 @@ function getValue() {
 web3 = new Web3(web3.currentProvider);
     console.log("AHA3");
   
-web3.eth.getAccounts.then(console.log);
+//web3.eth.getAccounts.then(console.log);
  /*updateDefaultAccount = async () => {
     const web3 = this.state.web3;
     const accounts = await web3.eth.getAccounts();
